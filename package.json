@@ -1,0 +1,29 @@
+{
+  "name": "string-calculator",
+  "version": "1.0.0",
+  "description": "The string calculator get string of numbers as input and output is addition of all numbers",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaurishankarTambave/String-Calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaurishankarTambave/String-Calculator/issues"
+  },
+  "homepage": "https://github.com/GaurishankarTambave/String-Calculator#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
