@@ -1,0 +1,33 @@
+{
+  "include": [
+    "./src/**/*",
+    "./index.ts",
+    "./test/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "target": "es2018",
+    "module": "commonjs",
+    "allowJs": true,
+    "declaration": false,
+    "sourceMap": true, 
+    "outDir": "./dist",
+    "strict": true, 
+    "esModuleInterop": true, 
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node", 
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "useUnknownInCatchVariables": false
+  }
+}
